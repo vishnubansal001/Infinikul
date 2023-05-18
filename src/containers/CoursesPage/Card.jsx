@@ -10,7 +10,7 @@ const Card = ({ preview, courseName, courseCreator, rating, price }) => {
                 boxShadow:
                     "inset 0 0 0 0.5px #8c8c8c, 0 5px 20px rgba(0,0,0,0.1)",
             }}
-            className="relative w-[344px] h-[262px] rounded-[2rem] grid grid-rows-[64%_36%] bg-white"
+            className="relative w-[344px] h-[262px] rounded-[2rem] grid grid-rows-[64%_36%] bg-white shrink-0"
         >
             <div
                 className="w-full h-full bg-cover bg-center bg-no-repeat rounded-t-[2rem]"

@@ -35,11 +35,39 @@ const DATA = [
                 rating: 4.5,
                 price: 500,
             },
+            {
+                preview: null,
+                courseName: "the complete quantum mechanics",
+                courseCreator: "Anurag",
+                rating: 4.5,
+                price: 500,
+            },
+            {
+                preview: null,
+                courseName: "the complete quantum mechanics",
+                courseCreator: "Anurag",
+                rating: 4.5,
+                price: 500,
+            },
         ],
     },
     {
         category: "🚀physics",
         courses: [
+            {
+                preview: null,
+                courseName: "the complete quantum mechanics",
+                courseCreator: "Anurag",
+                rating: 4.5,
+                price: 500,
+            },
+            {
+                preview: null,
+                courseName: "the complete quantum mechanics",
+                courseCreator: "Anurag",
+                rating: 4.5,
+                price: 500,
+            },
             {
                 preview: null,
                 courseName: "the complete quantum mechanics",
