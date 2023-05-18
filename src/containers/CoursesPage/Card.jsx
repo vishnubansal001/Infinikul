@@ -2,10 +2,17 @@ import React from "react";
 import previewPlaceholder from "../../assets/coursesPreviewPlaceholder.png";
 import star from "../../assets/Star_1.svg";
 
-const Card = ({ preview, courseName, courseCreator, rating, price }) => {
+const Card = ({
+    preview,
+    courseName,
+    courseCreator,
+    rating,
+    price,
+    courseLink,
+}) => {
     return (
         <a
-            href="#"
+            href={courseLink || "#"}
             style={{
                 boxShadow:
                     "inset 0 0 0 0.5px #8c8c8c, 0 5px 20px rgba(0,0,0,0.1)",

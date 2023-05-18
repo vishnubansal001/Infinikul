@@ -37,7 +37,7 @@ const CardCont = ({ courseCategory, courses }) => {
                 <button
                     className={`absolute top-1/2 left-2 w-10 h-10 p-1 rounded-xl bg-white place-items-center z-10`}
                     style={{
-                        display: scrollLeft !== 0 ? "grid" : "none",
+                        display: scrollLeft - 20 > 0 ? "grid" : "none",
                     }}
                     onClick={() => btnScroll(-1)}
                 >
@@ -50,13 +50,14 @@ const CardCont = ({ courseCategory, courses }) => {
                         preview={course.preview}
                         price={course.price}
                         rating={course.rating}
+                        courseLink={course.courseLink}
                         key={course.courseName + "-" + i}
                     />
                 ))}
                 <button
                     className="absolute top-1/2 right-2 w-10 h-10 p-1 rounded-xl bg-white grid place-items-center z-10"
                     style={{
-                        display: scrollLeft !== maxScroll ? "grid" : "none",
+                        display: scrollLeft + 20 < maxScroll ? "grid" : "none",
                     }}
                     onClick={() => btnScroll(1)}
                 >
